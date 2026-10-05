@@ -46,35 +46,9 @@ These sources are integrated into a structured analytical pipeline for data-qual
 
 ## Architecture
 
-```text
-Synthetic Partner & Internal Data
-              │
-              ▼
-        BRONZE LAYER
-     Raw source ingestion
-              │
-              ▼
-        SILVER LAYER
- Cleaning • Standardisation
- Validation • Data Mapping
- Quarantine • Reconciliation
-              │
-              ▼
-         GOLD LAYER
- Partner Performance Metrics
- Listing & Inventory Health
- Settlement Reconciliation
- Anomaly Detection
- Exception Management
-              │
-        ┌─────┴─────┐
-        ▼           ▼
- Business/SQL    AI-Assisted
-   Analysis      Classification
-        │
-        ▼
- Power BI-ready Reporting
-```
+Meridian follows a layered **Bronze–Silver–Gold architecture**, transforming synthetic partner and internal commerce data into validated, business-ready analytical datasets.
+
+![Meridian Partner Commerce Analytics Architecture](meridian_architecture.png)
 
 ---
 
